@@ -25,7 +25,8 @@ public class calc {
 			priceA = price;
 			}
 		
-	}
+	}  
+	
 	
 	@When ("I checkout {int} {string}")
 	public void ICheckedOut( Integer ItemCount , String st) {
